@@ -8,10 +8,10 @@ on:
 
 jobs:
   deploy:
-    runs-in: ubuntu-latest 
+    runs-on: ubuntu-latest 
 
     steps:
-      - uses: Checkout Repository 
+      - name: Checkout Repository 
         uses: actions/Checkout@v4
 
       - name: Setup NodeJS
